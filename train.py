@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 from sklearn.ensemble import RandomForestRegressor
 
-data_path = "data/BostonHousing.csv"
+data_path = "BostonHousing.csv"
 data = pd.read_csv(data_path)
 
 X = data.drop(columns=['medv']) 
